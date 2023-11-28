@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ItemList
+comment0.text=\n\ Classe\ qui\ s'occupe\ de\ l'inventaire\ des\ Rooms\ et\ du\ Player.\n\ @author\ Hugo\ DAUVERGNE\n\ @version\ 22/05/22\n
+comment1.params=
+comment1.target=ItemList()
+comment1.text=\n\ Constructeur\ d'objets\ de\ classe\ ItemList\n
+comment2.params=pItem
+comment2.target=Item\ getItem(java.lang.String)
+comment2.text=\n\ Renvoi\ l'item\ correspondant\ \u00E0\ la\ string\n\ @param\ pItem\ String\ qui\ correspond\ \u00E0\ la\ description\ de\ l'objet\n\ @return\ Item\ qui\ correspond\ \u00E0\ la\ string\n
+comment3.params=
+comment3.target=double\ getTotalWeight()
+comment3.text=\n\ Donne\ le\ poids\ total\ du\ personnage\n\ @return\ Weight\ qui\ correspond\ au\ poids\n
+comment4.params=
+comment4.target=java.lang.String\ getItemString()
+comment4.text=\n\ Fonction\ getItemString\ de\ type\ String\n\ @return\ Renvoi\ toutes\ les\ cl\u00E9es\ auxquels\ les\ items\ sont\ li\u00E9es\n
+comment5.params=
+comment5.target=java.lang.String\ getInventoryString()
+comment5.text=\n\ M\u00E9thode\ qui\ retourne\ une\ description\ d\u00E9taill\u00E9\ de\ l'inventaire\ avec\ nom\ et\ poids\n\ @return\ les\ items\ pr\u00E9sent\ dans\ l'inventaire\n
+comment6.params=pStringItem\ pItem
+comment6.target=void\ takeItem(java.lang.String,\ Item)
+comment6.text=\n\ Proc\u00E9dure\ takeItem\ qui\ a\ partir\ de\ la\ HashMap\ aInventary,\ \n\ associe\ une\ chaine\ de\ caract\u00E8re\ et\ une\ caract\u00E9ristique\ \u00E0\ takeItem\n
+comment7.params=pStringItem
+comment7.target=void\ dropItem(java.lang.String)
+comment7.text=\n\ Proc\u00E9dure\ dropItem\ qui\ a\ partir\ de\ la\ HashMap\ aInventary,\ \n\ associe\ une\ chaine\ de\ caract\u00E8re\ \u00E0\ dropItem\n
+numComments=8

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Command
+comment0.text=\n\ Cette\ classe\ contient\ des\ informations\ sur\ une\ commande\ \u00E9mise\ par\ l'utilisateur.\n\ Une\ commande\ se\ compose\ actuellement\ de\ deux\ cha\u00EEnes\ \:\ un\ mot\ de\ commande\ et\ un\ second\n\ mot\ (par\ exemple,\ si\ la\ commande\ \u00E9tait\ "prendre\ la\ carte",\ alors\ les\ deux\ cha\u00EEnes\n\ sont\ \u00E9videmment\ "take"\ et\ "map").\n\n\ La\ fa\u00E7on\ dont\ cela\ est\ utilis\u00E9\ est\u00A0\:\ les\ commandes\ sont\ d\u00E9j\u00E0\ v\u00E9rifi\u00E9es\ pour\ \u00EAtre\ valides\n\ mots\ de\ commande.\ Si\ l'utilisateur\ a\ entr\u00E9\ une\ commande\ invalide\ (un\ mot\ qui\ n'est\ pas\n\ connu)\ alors\ le\ mot\ de\ commande\ est\ <null>.\n\n\ Si\ la\ commande\ n'avait\ qu'un\ seul\ mot,\ alors\ le\ deuxi\u00E8me\ mot\ est\ <null>.\n\ \n\ @author\ Hugo\ DAUVERGNE\n\ @version\ \ 18/05/22\n
+comment1.params=pPremierMot\ pDeuxiemeMot
+comment1.target=Command(java.lang.String,\ java.lang.String)
+comment1.text=\n\ Constructeur\ naturel\n
+comment2.params=
+comment2.target=java.lang.String\ getCommandWord()
+comment2.text=\n\ retourne\ la\ string\ du\ premier\ mot\ \u00E9crit\ dans\ la\ bo\u00EEte\ de\ dialogue\n\ @return\ String\ CommandWord\ \n
+comment3.params=
+comment3.target=java.lang.String\ getSecondWord()
+comment3.text=\n\ retourne\ la\ string\ du\ deuxi\u00E8me\ mot\n\ @return\ String\ SecondWord\n
+comment4.params=
+comment4.target=boolean\ hasSecondWord()
+comment4.text=\n\ Retourne\ un\ boolean\ si\ il\ y\ a\ un\ deuxieme\ mot\n\ @return\ boolean\ \n
+comment5.params=
+comment5.target=boolean\ isUnknown()
+comment5.text=\n\ Retourne\ un\ boolean\ True\ si\ le\ commandWord\ n'est\ pas\ connu\ et\ faux\ si\ c'est\ bon\n\ @return\ boolean\n
+numComments=6
